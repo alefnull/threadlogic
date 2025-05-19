@@ -2,9 +2,6 @@ package alefnull.threadlogic;
 
 import net.fabricmc.api.ModInitializer;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 public class ThreadLogic implements ModInitializer {
 	public static final String MOD_ID = "threadlogic";
 
