@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "threadlogic",
+	"version": "${version}",
+	"name": "ThreadLogic",
+	"description": "Use any combination of colored wool to craft a bed matching the color of the center piece of wool used in the recipe.",
+	"authors": [
+		"alefnull"
+	],
+	"contact": {
+		"sources": "https://github.com/alefnull/threadlogic"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/threadlogic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"alefnull.threadlogic.ThreadLogic"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
